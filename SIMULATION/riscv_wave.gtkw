@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Mon May 25 21:05:20 2026
+[*]
+[dumpfile] "C:\Users\silpa\riscv_core\SIMULATION\SIMULATION\waves.vcd"
+[savefile] "C:\Users\silpa\riscv_core\SIMULATION\riscv_wave.gtkw"
+[timestart] 6940
+[size] 1536 889
+[pos] -191 -191
+*-13.000000 15820 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_riscv.
+[treeopen] tb_riscv.uut.
+[treeopen] tb_riscv.uut.dp.
+[sst_width] 197
+[signals_width] 126
+[sst_expanded] 1
+[sst_vpaned_height] 254
+@28
+tb_riscv.clk
+tb_riscv.rst
+@22
+tb_riscv.uut.dp.pc_reg[31:0]
+tb_riscv.uut.dp.instr[31:0]
+@28
+tb_riscv.uut.cu.regwrite
+tb_riscv.uut.cu.memwrite
+tb_riscv.uut.cu.pcsrc
+tb_riscv.uut.dm.we
+[pattern_trace] 1
+[pattern_trace] 0
