@@ -9,7 +9,7 @@ module imem (
     initial begin
         for (i = 0; i < 64; i = i + 1)
             mem[i] = 32'b0;
-        $readmemh("C:/Users/silpa/riscv_core/MEMORY/program.hex", mem);
+        $readmemh("C:/Users/silpa/riscv_core/MEMORY/fibonacci.hex", mem);
     end
 
     assign instr = mem[addr[31:2]];
