@@ -33,7 +33,7 @@ x7  = 13
 x8  = 21
 
 ## Waveform
-![Simulation Waveform](docs/waveform.png)
+![Simulation Waveform](waveform.png)
 
 ## How to Simulate
     iverilog -o SIMULATION/riscv_sim.vvp SIMULATION/tb_riscv.v RTL/riscv_core.v RTL/datapath.v RTL/control_unit.v RTL/main_dec.v RTL/alu_dec.v RTL/regfile.v RTL/alu.v RTL/imm_ext.v RTL/imem.v RTL/dmem.v
