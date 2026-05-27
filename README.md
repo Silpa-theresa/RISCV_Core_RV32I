@@ -2,6 +2,8 @@
 
 A fully functional single-cycle RV32I RISC-V processor implemented in Verilog HDL.
 
+📊 [Microarchitectural Performance Analysis](PERFORMANCE.md)
+
 ## Features
 - Complete RV32I base integer instruction set (ADD, SUB, AND, OR, XOR, LW, SW, BEQ, JAL, LUI)
 - Single-cycle implementation
