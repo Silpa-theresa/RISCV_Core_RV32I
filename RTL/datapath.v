@@ -12,6 +12,7 @@ module datapath (
     output [2:0]  funct3,
     output        funct7b5,
     output        zero,
+    output        negative,
     output [31:0] mem_addr,
     output [31:0] mem_wdata,
     input  [31:0] mem_rdata
@@ -76,7 +77,8 @@ module datapath (
         .b          (alu_b),
         .alucontrol (alucontrol),
         .result     (alu_result),
-        .zero       (zero)
+        .zero       (zero),
+        .negative   (negative)
     );
 
     // Memory interface

@@ -3,7 +3,8 @@ module alu (
     input  [31:0] b,
     input  [2:0]  alucontrol,
     output reg [31:0] result,
-    output zero
+    output zero,
+    output negative
 );
 
     always @(*) begin
@@ -21,5 +22,6 @@ module alu (
     end
 
     assign zero = (result == 32'b0);
+    assign negative = result[31];
 
 endmodule
