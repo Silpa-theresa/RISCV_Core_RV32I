@@ -7,7 +7,7 @@ module imem (
 
     integer i;
     initial begin
-        for (i = 0; i < 64; i = i + 1)
+        for (i = 0; i < 256; i = i + 1)
             mem[i] = 32'b0;
         $readmemh("MEMORY/test2.hex", mem);
     end
